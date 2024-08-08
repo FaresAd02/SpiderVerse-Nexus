@@ -1,0 +1,1171 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF2A01D62C61DE4F009F6628 /* ActualizarInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A01D52C61DE4F009F6628 /* ActualizarInfoController.swift */; };
+		FF4715052C6281A70031A869 /* Noticias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4715042C6281A70031A869 /* Noticias.swift */; };
+		FF47150A2C628FA40031A869 /* CeldaNoticias.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF4715092C628FA30031A869 /* CeldaNoticias.xib */; };
+		FF47150B2C628FA40031A869 /* CeldaNoticias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4715082C628FA30031A869 /* CeldaNoticias.swift */; };
+		FF4715122C6335BB0031A869 /* CeldaComics.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF4715112C6335BB0031A869 /* CeldaComics.xib */; };
+		FF4715132C6335BB0031A869 /* CeldaComics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4715102C6335BB0031A869 /* CeldaComics.swift */; };
+		FF4715152C63362F0031A869 /* Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4715142C63362F0031A869 /* Comics.swift */; };
+		FF590EF02C5AF913000E65C5 /* PersonajesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF590EEF2C5AF913000E65C5 /* PersonajesViewController.swift */; };
+		FF590EF22C5C2B90000E65C5 /* ComicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF590EF12C5C2B90000E65C5 /* ComicsViewController.swift */; };
+		FF590EF42C5C2BA2000E65C5 /* NoticiasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF590EF32C5C2BA2000E65C5 /* NoticiasViewController.swift */; };
+		FF590EF62C5C2BD3000E65C5 /* CuentaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF590EF52C5C2BD2000E65C5 /* CuentaViewController.swift */; };
+		FF5D886F2C656F8F00C4580A /* gifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D886E2C656F8F00C4580A /* gifLoader.swift */; };
+		FF70A7552C63DE4B0031BD34 /* the_amazing_spiderman_30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7502C63DE4B0031BD34 /* the_amazing_spiderman_30.jpg */; };
+		FF70A7562C63DE4B0031BD34 /* multiverso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7472C63DE4B0031BD34 /* multiverso.jpg */; };
+		FF70A7572C63DE4B0031BD34 /* edge_spiderverse_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A72A2C63DE4B0031BD34 /* edge_spiderverse_5.jpg */; };
+		FF70A7582C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7222C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_9.jpg */; };
+		FF70A7592C63DE4B0031BD34 /* Spider-Verse_Team-Up_Vol_1_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7312C63DE4B0031BD34 /* Spider-Verse_Team-Up_Vol_1_2.jpg */; };
+		FF70A75A2C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7252C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_12.jpg */; };
+		FF70A75B2C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7202C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_7.jpg */; };
+		FF70A75C2C63DE4B0031BD34 /* Spider-Woman_Vol_5_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7362C63DE4B0031BD34 /* Spider-Woman_Vol_5_2.jpg */; };
+		FF70A75D2C63DE4B0031BD34 /* herederos1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7442C63DE4B0031BD34 /* herederos1.jpg */; };
+		FF70A75E2C63DE4B0031BD34 /* edge_spiderverse_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7292C63DE4B0031BD34 /* edge_spiderverse_4.jpg */; };
+		FF70A75F2C63DE4B0031BD34 /* Spider-Man_2099_Vol_2_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A72E2C63DE4B0031BD34 /* Spider-Man_2099_Vol_2_6.jpg */; };
+		FF70A7602C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7262C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_13.jpg */; };
+		FF70A7612C63DE4B0031BD34 /* Spider-Woman_Vol_5_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7352C63DE4B0031BD34 /* Spider-Woman_Vol_5_1.jpg */; };
+		FF70A7622C63DE4B0031BD34 /* web.png in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7532C63DE4B0031BD34 /* web.png */; };
+		FF70A7632C63DE4B0031BD34 /* peter616.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A73E2C63DE4B0031BD34 /* peter616.jpg */; };
+		FF70A7652C63DE4B0031BD34 /* Spider-Verse_Vol_1_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7332C63DE4B0031BD34 /* Spider-Verse_Vol_1_1.jpg */; };
+		FF70A7662C63DE4B0031BD34 /* Spider-Verse_Team-Up_Vol_1_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7302C63DE4B0031BD34 /* Spider-Verse_Team-Up_Vol_1_1.jpg */; };
+		FF70A7672C63DE4B0031BD34 /* Scarlet_Spiders_Vol_1_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A72B2C63DE4B0031BD34 /* Scarlet_Spiders_Vol_1_1.jpg */; };
+		FF70A7682C63DE4B0031BD34 /* the_amazing_spiderman_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A74E2C63DE4B0031BD34 /* the_amazing_spiderman_1.jpg */; };
+		FF70A7692C63DE4B0031BD34 /* The_Superior Spider-Man_32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7512C63DE4B0031BD34 /* The_Superior Spider-Man_32.jpg */; };
+		FF70A76A2C63DE4B0031BD34 /* peter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7482C63DE4B0031BD34 /* peter.jpg */; };
+		FF70A76B2C63DE4B0031BD34 /* Spider-Verse_Team-Up_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7492C63DE4B0031BD34 /* Spider-Verse_Team-Up_1.jpg */; };
+		FF70A76C2C63DE4B0031BD34 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7522C63DE4B0031BD34 /* user.png */; };
+		FF70A76D2C63DE4B0031BD34 /* Spider-Man_2099_Vol_2_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A72F2C63DE4B0031BD34 /* Spider-Man_2099_Vol_2_7.jpg */; };
+		FF70A76E2C63DE4B0031BD34 /* spiderverse1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A74C2C63DE4B0031BD34 /* spiderverse1.jpg */; };
+		FF70A76F2C63DE4B0031BD34 /* Spider-Verse_Vol_1_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7342C63DE4B0031BD34 /* Spider-Verse_Vol_1_2.jpg */; };
+		FF70A7702C63DE4B0031BD34 /* miles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7462C63DE4B0031BD34 /* miles.jpg */; };
+		FF70A7712C63DE4B0031BD34 /* Spider-Woman_Vol_5_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7372C63DE4B0031BD34 /* Spider-Woman_Vol_5_3.jpg */; };
+		FF70A7722C63DE4B0031BD34 /* spiderverse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A74B2C63DE4B0031BD34 /* spiderverse.jpg */; };
+		FF70A7732C63DE4B0031BD34 /* gwen_comics.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A73A2C63DE4B0031BD34 /* gwen_comics.jpg */; };
+		FF70A7742C63DE4B0031BD34 /* herederos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7432C63DE4B0031BD34 /* herederos.jpg */; };
+		FF70A7752C63DE4B0031BD34 /* the_amazing_spiderman_15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A74F2C63DE4B0031BD34 /* the_amazing_spiderman_15.jpg */; };
+		FF70A7762C63DE4B0031BD34 /* edge_spiderverse_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7282C63DE4B0031BD34 /* edge_spiderverse_3.jpg */; };
+		FF70A7772C63DE4B0031BD34 /* Scarlet_Spiders_Vol_1_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A72C2C63DE4B0031BD34 /* Scarlet_Spiders_Vol_1_2.jpg */; };
+		FF70A7782C63DE4B0031BD34 /* Edge_of_Spider-Verse_Vol_1_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7412C63DE4B0031BD34 /* Edge_of_Spider-Verse_Vol_1_1.jpg */; };
+		FF70A7792C63DE4B0031BD34 /* Scarlet_Spiders_Vol_1_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A72D2C63DE4B0031BD34 /* Scarlet_Spiders_Vol_1_3.jpg */; };
+		FF70A77A2C63DE4B0031BD34 /* jessica_drew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A73B2C63DE4B0031BD34 /* jessica_drew.jpg */; };
+		FF70A77B2C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7272C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_14.jpg */; };
+		FF70A77C2C63DE4B0031BD34 /* miles_morales.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A73D2C63DE4B0031BD34 /* miles_morales.jpg */; };
+		FF70A77D2C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7212C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_8.jpg */; };
+		FF70A77E2C63DE4B0031BD34 /* miguel_o'hara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A73C2C63DE4B0031BD34 /* miguel_o'hara.jpg */; };
+		FF70A77F2C63DE4B0031BD34 /* Spider-Woman_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A74A2C63DE4B0031BD34 /* Spider-Woman_1.jpg */; };
+		FF70A7802C63DE4B0031BD34 /* gwen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7422C63DE4B0031BD34 /* gwen.jpg */; };
+		FF70A7812C63DE4B0031BD34 /* aparicion_morlun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7402C63DE4B0031BD34 /* aparicion_morlun.jpg */; };
+		FF70A7822C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7232C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_10.jpg */; };
+		FF70A7832C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7242C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_11.jpg */; };
+		FF70A7842C63DE4B0031BD34 /* miguel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7452C63DE4B0031BD34 /* miguel.jpg */; };
+		FF70A7852C63DE4B0031BD34 /* Spider-Verse_Team-Up_Vol_1_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7322C63DE4B0031BD34 /* Spider-Verse_Team-Up_Vol_1_3.jpg */; };
+		FF70A7862C63DE4B0031BD34 /* The_Amazing Spider-Man_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A74D2C63DE4B0031BD34 /* The_Amazing Spider-Man_7.jpg */; };
+		FF70A7892C64511C0031BD34 /* CeldaPersonajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70A7872C64511C0031BD34 /* CeldaPersonajes.swift */; };
+		FF70A78A2C64511C0031BD34 /* CeldaPersonajes.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF70A7882C64511C0031BD34 /* CeldaPersonajes.xib */; };
+		FF70A78C2C6451320031BD34 /* Personajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70A78B2C6451320031BD34 /* Personajes.swift */; };
+		FF70A78E2C6480060031BD34 /* spiderman0616.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF70A78D2C6480060031BD34 /* spiderman0616.jpg */; };
+		FF75A12D2C65764000E4EF0F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A12C2C65764000E4EF0F /* FirebaseAnalytics */; };
+		FF75A12F2C65764000E4EF0F /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A12E2C65764000E4EF0F /* FirebaseAnalyticsOnDeviceConversion */; };
+		FF75A1312C65764000E4EF0F /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A1302C65764000E4EF0F /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		FF75A1332C65764000E4EF0F /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A1322C65764000E4EF0F /* FirebaseAppCheck */; };
+		FF75A1352C65764000E4EF0F /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A1342C65764000E4EF0F /* FirebaseAppDistribution-Beta */; };
+		FF75A1372C65764000E4EF0F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A1362C65764000E4EF0F /* FirebaseAuth */; };
+		FF75A1392C65764000E4EF0F /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A1382C65764000E4EF0F /* FirebaseAuthCombine-Community */; };
+		FF75A13B2C65764000E4EF0F /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A13A2C65764000E4EF0F /* FirebaseCrashlytics */; };
+		FF75A13D2C65764000E4EF0F /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A13C2C65764000E4EF0F /* FirebaseDatabase */; };
+		FF75A13F2C65764000E4EF0F /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A13E2C65764000E4EF0F /* FirebaseDynamicLinks */; };
+		FF75A1412C65764000E4EF0F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A1402C65764000E4EF0F /* FirebaseFirestore */; };
+		FF75A1432C65764000E4EF0F /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A1422C65764000E4EF0F /* FirebaseFirestoreCombine-Community */; };
+		FF75A1452C65764000E4EF0F /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A1442C65764000E4EF0F /* FirebaseFunctions */; };
+		FF75A1472C65764000E4EF0F /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A1462C65764000E4EF0F /* FirebaseFunctionsCombine-Community */; };
+		FF75A1492C65764000E4EF0F /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A1482C65764000E4EF0F /* FirebaseInAppMessaging-Beta */; };
+		FF75A14B2C65764000E4EF0F /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A14A2C65764000E4EF0F /* FirebaseInstallations */; };
+		FF75A14D2C65764000E4EF0F /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A14C2C65764000E4EF0F /* FirebaseMLModelDownloader */; };
+		FF75A14F2C65764000E4EF0F /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A14E2C65764000E4EF0F /* FirebaseMessaging */; };
+		FF75A1512C65764000E4EF0F /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A1502C65764000E4EF0F /* FirebasePerformance */; };
+		FF75A1532C65764000E4EF0F /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A1522C65764000E4EF0F /* FirebaseRemoteConfig */; };
+		FF75A1552C65764000E4EF0F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A1542C65764000E4EF0F /* FirebaseStorage */; };
+		FF75A1572C65764000E4EF0F /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A1562C65764000E4EF0F /* FirebaseStorageCombine-Community */; };
+		FF75A1592C65764000E4EF0F /* FirebaseVertexAI-Preview in Frameworks */ = {isa = PBXBuildFile; productRef = FF75A1582C65764000E4EF0F /* FirebaseVertexAI-Preview */; };
+		FF75A15E2C657C1F00E4EF0F /* Spider-Man_Noir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF75A15D2C657C1F00E4EF0F /* Spider-Man_Noir.jpg */; };
+		FF75A15F2C657C1F00E4EF0F /* fincher.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF75A15C2C657C1F00E4EF0F /* fincher.jpg */; };
+		FF75A1612C65821B00E4EF0F /* SpidermanFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF75A1602C65821B00E4EF0F /* SpidermanFont.ttf */; };
+		FF75C5362C62173500F296E6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF75C5352C62173500F296E6 /* MainViewController.swift */; };
+		FF97C4382C6561D500E571FE /* swingin_spider.gif in Resources */ = {isa = PBXBuildFile; fileRef = FF97C4372C6561D500E571FE /* swingin_spider.gif */; };
+		FFB9CCA02C51701500737B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB9CC9F2C51701500737B49 /* AppDelegate.swift */; };
+		FFB9CCA22C51701500737B49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB9CCA12C51701500737B49 /* SceneDelegate.swift */; };
+		FFB9CCA42C51701500737B49 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB9CCA32C51701500737B49 /* MainTabBarController.swift */; };
+		FFB9CCA72C51701500737B49 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FFB9CCA62C51701500737B49 /* Base */; };
+		FFB9CCA92C51701700737B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB9CCA82C51701700737B49 /* Assets.xcassets */; };
+		FFB9CCAC2C51701700737B49 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FFB9CCAB2C51701700737B49 /* Base */; };
+		FFB9CCB72C51701800737B49 /* SpiderVerse_NexusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB9CCB62C51701800737B49 /* SpiderVerse_NexusTests.swift */; };
+		FFB9CCC12C51701800737B49 /* SpiderVerse_NexusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB9CCC02C51701800737B49 /* SpiderVerse_NexusUITests.swift */; };
+		FFB9CCC32C51701800737B49 /* SpiderVerse_NexusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB9CCC22C51701800737B49 /* SpiderVerse_NexusUITestsLaunchTests.swift */; };
+		FFB9CCE92C5174BF00737B49 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB9CCE82C5174BF00737B49 /* Login.storyboard */; };
+		FFB9CCEB2C51970B00737B49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFB9CCEA2C51970B00737B49 /* GoogleService-Info.plist */; };
+		FFB9CCED2C51AA8300737B49 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB9CCEC2C51AA8300737B49 /* LoginViewController.swift */; };
+		FFB9CCF12C51BC2C00737B49 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB9CCF02C51BC2C00737B49 /* RegisterViewController.swift */; };
+		FFEF46102C64ACAA00E7CB07 /* cindy_moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFEF460F2C64ACAA00E7CB07 /* cindy_moon.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFB9CCB32C51701800737B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFB9CC942C51701500737B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFB9CC9B2C51701500737B49;
+			remoteInfo = "SpiderVerse Nexus";
+		};
+		FFB9CCBD2C51701800737B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFB9CC942C51701500737B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFB9CC9B2C51701500737B49;
+			remoteInfo = "SpiderVerse Nexus";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF2A01D52C61DE4F009F6628 /* ActualizarInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualizarInfoController.swift; sourceTree = "<group>"; };
+		FF4715042C6281A70031A869 /* Noticias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noticias.swift; sourceTree = "<group>"; };
+		FF4715082C628FA30031A869 /* CeldaNoticias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaNoticias.swift; sourceTree = "<group>"; };
+		FF4715092C628FA30031A869 /* CeldaNoticias.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CeldaNoticias.xib; sourceTree = "<group>"; };
+		FF4715102C6335BB0031A869 /* CeldaComics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaComics.swift; sourceTree = "<group>"; };
+		FF4715112C6335BB0031A869 /* CeldaComics.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CeldaComics.xib; sourceTree = "<group>"; };
+		FF4715142C63362F0031A869 /* Comics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comics.swift; sourceTree = "<group>"; };
+		FF590EEF2C5AF913000E65C5 /* PersonajesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonajesViewController.swift; sourceTree = "<group>"; };
+		FF590EF12C5C2B90000E65C5 /* ComicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsViewController.swift; sourceTree = "<group>"; };
+		FF590EF32C5C2BA2000E65C5 /* NoticiasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticiasViewController.swift; sourceTree = "<group>"; };
+		FF590EF52C5C2BD2000E65C5 /* CuentaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaViewController.swift; sourceTree = "<group>"; };
+		FF5D886E2C656F8F00C4580A /* gifLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifLoader.swift; sourceTree = "<group>"; };
+		FF70A7202C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amazing_Spider-Man_Vol_3_7.jpg"; sourceTree = "<group>"; };
+		FF70A7212C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amazing_Spider-Man_Vol_3_8.jpg"; sourceTree = "<group>"; };
+		FF70A7222C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amazing_Spider-Man_Vol_3_9.jpg"; sourceTree = "<group>"; };
+		FF70A7232C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amazing_Spider-Man_Vol_3_10.jpg"; sourceTree = "<group>"; };
+		FF70A7242C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amazing_Spider-Man_Vol_3_11.jpg"; sourceTree = "<group>"; };
+		FF70A7252C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amazing_Spider-Man_Vol_3_12.jpg"; sourceTree = "<group>"; };
+		FF70A7262C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amazing_Spider-Man_Vol_3_13.jpg"; sourceTree = "<group>"; };
+		FF70A7272C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amazing_Spider-Man_Vol_3_14.jpg"; sourceTree = "<group>"; };
+		FF70A7282C63DE4B0031BD34 /* edge_spiderverse_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = edge_spiderverse_3.jpg; sourceTree = "<group>"; };
+		FF70A7292C63DE4B0031BD34 /* edge_spiderverse_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = edge_spiderverse_4.jpg; sourceTree = "<group>"; };
+		FF70A72A2C63DE4B0031BD34 /* edge_spiderverse_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = edge_spiderverse_5.jpg; sourceTree = "<group>"; };
+		FF70A72B2C63DE4B0031BD34 /* Scarlet_Spiders_Vol_1_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Scarlet_Spiders_Vol_1_1.jpg; sourceTree = "<group>"; };
+		FF70A72C2C63DE4B0031BD34 /* Scarlet_Spiders_Vol_1_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Scarlet_Spiders_Vol_1_2.jpg; sourceTree = "<group>"; };
+		FF70A72D2C63DE4B0031BD34 /* Scarlet_Spiders_Vol_1_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Scarlet_Spiders_Vol_1_3.jpg; sourceTree = "<group>"; };
+		FF70A72E2C63DE4B0031BD34 /* Spider-Man_2099_Vol_2_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spider-Man_2099_Vol_2_6.jpg"; sourceTree = "<group>"; };
+		FF70A72F2C63DE4B0031BD34 /* Spider-Man_2099_Vol_2_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spider-Man_2099_Vol_2_7.jpg"; sourceTree = "<group>"; };
+		FF70A7302C63DE4B0031BD34 /* Spider-Verse_Team-Up_Vol_1_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spider-Verse_Team-Up_Vol_1_1.jpg"; sourceTree = "<group>"; };
+		FF70A7312C63DE4B0031BD34 /* Spider-Verse_Team-Up_Vol_1_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spider-Verse_Team-Up_Vol_1_2.jpg"; sourceTree = "<group>"; };
+		FF70A7322C63DE4B0031BD34 /* Spider-Verse_Team-Up_Vol_1_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spider-Verse_Team-Up_Vol_1_3.jpg"; sourceTree = "<group>"; };
+		FF70A7332C63DE4B0031BD34 /* Spider-Verse_Vol_1_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spider-Verse_Vol_1_1.jpg"; sourceTree = "<group>"; };
+		FF70A7342C63DE4B0031BD34 /* Spider-Verse_Vol_1_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spider-Verse_Vol_1_2.jpg"; sourceTree = "<group>"; };
+		FF70A7352C63DE4B0031BD34 /* Spider-Woman_Vol_5_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spider-Woman_Vol_5_1.jpg"; sourceTree = "<group>"; };
+		FF70A7362C63DE4B0031BD34 /* Spider-Woman_Vol_5_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spider-Woman_Vol_5_2.jpg"; sourceTree = "<group>"; };
+		FF70A7372C63DE4B0031BD34 /* Spider-Woman_Vol_5_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spider-Woman_Vol_5_3.jpg"; sourceTree = "<group>"; };
+		FF70A73A2C63DE4B0031BD34 /* gwen_comics.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gwen_comics.jpg; sourceTree = "<group>"; };
+		FF70A73B2C63DE4B0031BD34 /* jessica_drew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jessica_drew.jpg; sourceTree = "<group>"; };
+		FF70A73C2C63DE4B0031BD34 /* miguel_o'hara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "miguel_o'hara.jpg"; sourceTree = "<group>"; };
+		FF70A73D2C63DE4B0031BD34 /* miles_morales.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miles_morales.jpg; sourceTree = "<group>"; };
+		FF70A73E2C63DE4B0031BD34 /* peter616.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = peter616.jpg; sourceTree = "<group>"; };
+		FF70A7402C63DE4B0031BD34 /* aparicion_morlun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aparicion_morlun.jpg; sourceTree = "<group>"; };
+		FF70A7412C63DE4B0031BD34 /* Edge_of_Spider-Verse_Vol_1_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Edge_of_Spider-Verse_Vol_1_1.jpg"; sourceTree = "<group>"; };
+		FF70A7422C63DE4B0031BD34 /* gwen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gwen.jpg; sourceTree = "<group>"; };
+		FF70A7432C63DE4B0031BD34 /* herederos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = herederos.jpg; sourceTree = "<group>"; };
+		FF70A7442C63DE4B0031BD34 /* herederos1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = herederos1.jpg; sourceTree = "<group>"; };
+		FF70A7452C63DE4B0031BD34 /* miguel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miguel.jpg; sourceTree = "<group>"; };
+		FF70A7462C63DE4B0031BD34 /* miles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miles.jpg; sourceTree = "<group>"; };
+		FF70A7472C63DE4B0031BD34 /* multiverso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = multiverso.jpg; sourceTree = "<group>"; };
+		FF70A7482C63DE4B0031BD34 /* peter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = peter.jpg; sourceTree = "<group>"; };
+		FF70A7492C63DE4B0031BD34 /* Spider-Verse_Team-Up_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spider-Verse_Team-Up_1.jpg"; sourceTree = "<group>"; };
+		FF70A74A2C63DE4B0031BD34 /* Spider-Woman_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spider-Woman_1.jpg"; sourceTree = "<group>"; };
+		FF70A74B2C63DE4B0031BD34 /* spiderverse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spiderverse.jpg; sourceTree = "<group>"; };
+		FF70A74C2C63DE4B0031BD34 /* spiderverse1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spiderverse1.jpg; sourceTree = "<group>"; };
+		FF70A74D2C63DE4B0031BD34 /* The_Amazing Spider-Man_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The_Amazing Spider-Man_7.jpg"; sourceTree = "<group>"; };
+		FF70A74E2C63DE4B0031BD34 /* the_amazing_spiderman_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_amazing_spiderman_1.jpg; sourceTree = "<group>"; };
+		FF70A74F2C63DE4B0031BD34 /* the_amazing_spiderman_15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_amazing_spiderman_15.jpg; sourceTree = "<group>"; };
+		FF70A7502C63DE4B0031BD34 /* the_amazing_spiderman_30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_amazing_spiderman_30.jpg; sourceTree = "<group>"; };
+		FF70A7512C63DE4B0031BD34 /* The_Superior Spider-Man_32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The_Superior Spider-Man_32.jpg"; sourceTree = "<group>"; };
+		FF70A7522C63DE4B0031BD34 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		FF70A7532C63DE4B0031BD34 /* web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web.png; sourceTree = "<group>"; };
+		FF70A7872C64511C0031BD34 /* CeldaPersonajes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaPersonajes.swift; sourceTree = "<group>"; };
+		FF70A7882C64511C0031BD34 /* CeldaPersonajes.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CeldaPersonajes.xib; sourceTree = "<group>"; };
+		FF70A78B2C6451320031BD34 /* Personajes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personajes.swift; sourceTree = "<group>"; };
+		FF70A78D2C6480060031BD34 /* spiderman0616.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spiderman0616.jpg; sourceTree = "<group>"; };
+		FF75A15C2C657C1F00E4EF0F /* fincher.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fincher.jpg; sourceTree = "<group>"; };
+		FF75A15D2C657C1F00E4EF0F /* Spider-Man_Noir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spider-Man_Noir.jpg"; sourceTree = "<group>"; };
+		FF75A1602C65821B00E4EF0F /* SpidermanFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SpidermanFont.ttf; sourceTree = "<group>"; };
+		FF75C5352C62173500F296E6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FF97C4372C6561D500E571FE /* swingin_spider.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = swingin_spider.gif; sourceTree = "<group>"; };
+		FFB9CC9C2C51701500737B49 /* SpiderVerse Nexus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpiderVerse Nexus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB9CC9F2C51701500737B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFB9CCA12C51701500737B49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFB9CCA32C51701500737B49 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		FFB9CCA62C51701500737B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFB9CCA82C51701700737B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFB9CCAB2C51701700737B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFB9CCAD2C51701700737B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFB9CCB22C51701800737B49 /* SpiderVerse NexusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpiderVerse NexusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB9CCB62C51701800737B49 /* SpiderVerse_NexusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderVerse_NexusTests.swift; sourceTree = "<group>"; };
+		FFB9CCBC2C51701800737B49 /* SpiderVerse NexusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpiderVerse NexusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB9CCC02C51701800737B49 /* SpiderVerse_NexusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderVerse_NexusUITests.swift; sourceTree = "<group>"; };
+		FFB9CCC22C51701800737B49 /* SpiderVerse_NexusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderVerse_NexusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFB9CCE82C5174BF00737B49 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		FFB9CCEA2C51970B00737B49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FFB9CCEC2C51AA8300737B49 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FFB9CCF02C51BC2C00737B49 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		FFEF460F2C64ACAA00E7CB07 /* cindy_moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cindy_moon.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFB9CC992C51701500737B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF75A1572C65764000E4EF0F /* FirebaseStorageCombine-Community in Frameworks */,
+				FF75A14F2C65764000E4EF0F /* FirebaseMessaging in Frameworks */,
+				FF75A14D2C65764000E4EF0F /* FirebaseMLModelDownloader in Frameworks */,
+				FF75A1332C65764000E4EF0F /* FirebaseAppCheck in Frameworks */,
+				FF75A1372C65764000E4EF0F /* FirebaseAuth in Frameworks */,
+				FF75A12D2C65764000E4EF0F /* FirebaseAnalytics in Frameworks */,
+				FF75A1352C65764000E4EF0F /* FirebaseAppDistribution-Beta in Frameworks */,
+				FF75A1312C65764000E4EF0F /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				FF75A13B2C65764000E4EF0F /* FirebaseCrashlytics in Frameworks */,
+				FF75A13D2C65764000E4EF0F /* FirebaseDatabase in Frameworks */,
+				FF75A1472C65764000E4EF0F /* FirebaseFunctionsCombine-Community in Frameworks */,
+				FF75A1392C65764000E4EF0F /* FirebaseAuthCombine-Community in Frameworks */,
+				FF75A1552C65764000E4EF0F /* FirebaseStorage in Frameworks */,
+				FF75A12F2C65764000E4EF0F /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				FF75A1452C65764000E4EF0F /* FirebaseFunctions in Frameworks */,
+				FF75A14B2C65764000E4EF0F /* FirebaseInstallations in Frameworks */,
+				FF75A1512C65764000E4EF0F /* FirebasePerformance in Frameworks */,
+				FF75A1432C65764000E4EF0F /* FirebaseFirestoreCombine-Community in Frameworks */,
+				FF75A1412C65764000E4EF0F /* FirebaseFirestore in Frameworks */,
+				FF75A13F2C65764000E4EF0F /* FirebaseDynamicLinks in Frameworks */,
+				FF75A1492C65764000E4EF0F /* FirebaseInAppMessaging-Beta in Frameworks */,
+				FF75A1592C65764000E4EF0F /* FirebaseVertexAI-Preview in Frameworks */,
+				FF75A1532C65764000E4EF0F /* FirebaseRemoteConfig in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB9CCAF2C51701800737B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB9CCB92C51701800737B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF47150C2C62E1950031A869 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF4715042C6281A70031A869 /* Noticias.swift */,
+				FF4715142C63362F0031A869 /* Comics.swift */,
+				FF70A78B2C6451320031BD34 /* Personajes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF47150D2C62E19F0031A869 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFB9CCA32C51701500737B49 /* MainTabBarController.swift */,
+				FFB9CCEC2C51AA8300737B49 /* LoginViewController.swift */,
+				FFB9CCF02C51BC2C00737B49 /* RegisterViewController.swift */,
+				FF590EEF2C5AF913000E65C5 /* PersonajesViewController.swift */,
+				FF75C5352C62173500F296E6 /* MainViewController.swift */,
+				FF590EF12C5C2B90000E65C5 /* ComicsViewController.swift */,
+				FF590EF32C5C2BA2000E65C5 /* NoticiasViewController.swift */,
+				FF590EF52C5C2BD2000E65C5 /* CuentaViewController.swift */,
+				FF2A01D52C61DE4F009F6628 /* ActualizarInfoController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FF47150E2C62E1AD0031A869 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF4715092C628FA30031A869 /* CeldaNoticias.xib */,
+				FF4715082C628FA30031A869 /* CeldaNoticias.swift */,
+				FF4715102C6335BB0031A869 /* CeldaComics.swift */,
+				FF4715112C6335BB0031A869 /* CeldaComics.xib */,
+				FF70A7872C64511C0031BD34 /* CeldaPersonajes.swift */,
+				FF70A7882C64511C0031BD34 /* CeldaPersonajes.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF47150F2C62E1B90031A869 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FFB9CCA52C51701500737B49 /* Main.storyboard */,
+				FFB9CCE82C5174BF00737B49 /* Login.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FF70A7382C63DE4B0031BD34 /* comics */ = {
+			isa = PBXGroup;
+			children = (
+				FF70A7202C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_7.jpg */,
+				FF70A7212C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_8.jpg */,
+				FF70A7222C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_9.jpg */,
+				FF70A7232C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_10.jpg */,
+				FF70A7242C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_11.jpg */,
+				FF70A7252C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_12.jpg */,
+				FF70A7262C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_13.jpg */,
+				FF70A7272C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_14.jpg */,
+				FF70A7282C63DE4B0031BD34 /* edge_spiderverse_3.jpg */,
+				FF70A7292C63DE4B0031BD34 /* edge_spiderverse_4.jpg */,
+				FF70A72A2C63DE4B0031BD34 /* edge_spiderverse_5.jpg */,
+				FF70A72B2C63DE4B0031BD34 /* Scarlet_Spiders_Vol_1_1.jpg */,
+				FF70A72C2C63DE4B0031BD34 /* Scarlet_Spiders_Vol_1_2.jpg */,
+				FF70A72D2C63DE4B0031BD34 /* Scarlet_Spiders_Vol_1_3.jpg */,
+				FF70A72E2C63DE4B0031BD34 /* Spider-Man_2099_Vol_2_6.jpg */,
+				FF70A72F2C63DE4B0031BD34 /* Spider-Man_2099_Vol_2_7.jpg */,
+				FF70A7302C63DE4B0031BD34 /* Spider-Verse_Team-Up_Vol_1_1.jpg */,
+				FF70A7312C63DE4B0031BD34 /* Spider-Verse_Team-Up_Vol_1_2.jpg */,
+				FF70A7322C63DE4B0031BD34 /* Spider-Verse_Team-Up_Vol_1_3.jpg */,
+				FF70A7332C63DE4B0031BD34 /* Spider-Verse_Vol_1_1.jpg */,
+				FF70A7342C63DE4B0031BD34 /* Spider-Verse_Vol_1_2.jpg */,
+				FF70A7352C63DE4B0031BD34 /* Spider-Woman_Vol_5_1.jpg */,
+				FF70A7362C63DE4B0031BD34 /* Spider-Woman_Vol_5_2.jpg */,
+				FF70A7372C63DE4B0031BD34 /* Spider-Woman_Vol_5_3.jpg */,
+			);
+			path = comics;
+			sourceTree = "<group>";
+		};
+		FF70A73F2C63DE4B0031BD34 /* personajes */ = {
+			isa = PBXGroup;
+			children = (
+				FFEF460F2C64ACAA00E7CB07 /* cindy_moon.jpg */,
+				FF70A73A2C63DE4B0031BD34 /* gwen_comics.jpg */,
+				FF70A73B2C63DE4B0031BD34 /* jessica_drew.jpg */,
+				FF70A73C2C63DE4B0031BD34 /* miguel_o'hara.jpg */,
+				FF70A73D2C63DE4B0031BD34 /* miles_morales.jpg */,
+				FF70A73E2C63DE4B0031BD34 /* peter616.jpg */,
+				FF70A78D2C6480060031BD34 /* spiderman0616.jpg */,
+			);
+			path = personajes;
+			sourceTree = "<group>";
+		};
+		FF70A7542C63DE4B0031BD34 /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				FF70A7382C63DE4B0031BD34 /* comics */,
+				FF70A73F2C63DE4B0031BD34 /* personajes */,
+				FF70A7402C63DE4B0031BD34 /* aparicion_morlun.jpg */,
+				FF70A7412C63DE4B0031BD34 /* Edge_of_Spider-Verse_Vol_1_1.jpg */,
+				FF70A7422C63DE4B0031BD34 /* gwen.jpg */,
+				FF70A7432C63DE4B0031BD34 /* herederos.jpg */,
+				FF70A7442C63DE4B0031BD34 /* herederos1.jpg */,
+				FF70A7452C63DE4B0031BD34 /* miguel.jpg */,
+				FF70A7462C63DE4B0031BD34 /* miles.jpg */,
+				FF70A7472C63DE4B0031BD34 /* multiverso.jpg */,
+				FF70A7482C63DE4B0031BD34 /* peter.jpg */,
+				FF70A7492C63DE4B0031BD34 /* Spider-Verse_Team-Up_1.jpg */,
+				FF70A74A2C63DE4B0031BD34 /* Spider-Woman_1.jpg */,
+				FF70A74B2C63DE4B0031BD34 /* spiderverse.jpg */,
+				FF70A74C2C63DE4B0031BD34 /* spiderverse1.jpg */,
+				FF70A74D2C63DE4B0031BD34 /* The_Amazing Spider-Man_7.jpg */,
+				FF70A74E2C63DE4B0031BD34 /* the_amazing_spiderman_1.jpg */,
+				FF70A74F2C63DE4B0031BD34 /* the_amazing_spiderman_15.jpg */,
+				FF70A7502C63DE4B0031BD34 /* the_amazing_spiderman_30.jpg */,
+				FF70A7512C63DE4B0031BD34 /* The_Superior Spider-Man_32.jpg */,
+				FF70A7522C63DE4B0031BD34 /* user.png */,
+				FF70A7532C63DE4B0031BD34 /* web.png */,
+				FF97C4372C6561D500E571FE /* swingin_spider.gif */,
+				FF75A15C2C657C1F00E4EF0F /* fincher.jpg */,
+				FF75A15D2C657C1F00E4EF0F /* Spider-Man_Noir.jpg */,
+			);
+			path = imagenes;
+			sourceTree = "<group>";
+		};
+		FFB9CC932C51701500737B49 = {
+			isa = PBXGroup;
+			children = (
+				FFB9CC9E2C51701500737B49 /* SpiderVerse Nexus */,
+				FFB9CCB52C51701800737B49 /* SpiderVerse NexusTests */,
+				FFB9CCBF2C51701800737B49 /* SpiderVerse NexusUITests */,
+				FFB9CC9D2C51701500737B49 /* Products */,
+				FFEE40562C5CA15C009346A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFB9CC9D2C51701500737B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFB9CC9C2C51701500737B49 /* SpiderVerse Nexus.app */,
+				FFB9CCB22C51701800737B49 /* SpiderVerse NexusTests.xctest */,
+				FFB9CCBC2C51701800737B49 /* SpiderVerse NexusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFB9CC9E2C51701500737B49 /* SpiderVerse Nexus */ = {
+			isa = PBXGroup;
+			children = (
+				FF47150F2C62E1B90031A869 /* Storyboards */,
+				FF47150E2C62E1AD0031A869 /* Views */,
+				FF47150D2C62E19F0031A869 /* Controllers */,
+				FF47150C2C62E1950031A869 /* Models */,
+				FFB9CC9F2C51701500737B49 /* AppDelegate.swift */,
+				FFB9CCA12C51701500737B49 /* SceneDelegate.swift */,
+				FFB9CCA82C51701700737B49 /* Assets.xcassets */,
+				FFB9CCAA2C51701700737B49 /* LaunchScreen.storyboard */,
+				FFB9CCAD2C51701700737B49 /* Info.plist */,
+				FFB9CCEA2C51970B00737B49 /* GoogleService-Info.plist */,
+				FF70A7542C63DE4B0031BD34 /* imagenes */,
+				FF5D886E2C656F8F00C4580A /* gifLoader.swift */,
+				FF75A1602C65821B00E4EF0F /* SpidermanFont.ttf */,
+			);
+			path = "SpiderVerse Nexus";
+			sourceTree = "<group>";
+		};
+		FFB9CCB52C51701800737B49 /* SpiderVerse NexusTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFB9CCB62C51701800737B49 /* SpiderVerse_NexusTests.swift */,
+			);
+			path = "SpiderVerse NexusTests";
+			sourceTree = "<group>";
+		};
+		FFB9CCBF2C51701800737B49 /* SpiderVerse NexusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFB9CCC02C51701800737B49 /* SpiderVerse_NexusUITests.swift */,
+				FFB9CCC22C51701800737B49 /* SpiderVerse_NexusUITestsLaunchTests.swift */,
+			);
+			path = "SpiderVerse NexusUITests";
+			sourceTree = "<group>";
+		};
+		FFEE40562C5CA15C009346A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFB9CC9B2C51701500737B49 /* SpiderVerse Nexus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB9CCC62C51701800737B49 /* Build configuration list for PBXNativeTarget "SpiderVerse Nexus" */;
+			buildPhases = (
+				FFB9CC982C51701500737B49 /* Sources */,
+				FFB9CC992C51701500737B49 /* Frameworks */,
+				FFB9CC9A2C51701500737B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpiderVerse Nexus";
+			packageProductDependencies = (
+				FF75A12C2C65764000E4EF0F /* FirebaseAnalytics */,
+				FF75A12E2C65764000E4EF0F /* FirebaseAnalyticsOnDeviceConversion */,
+				FF75A1302C65764000E4EF0F /* FirebaseAnalyticsWithoutAdIdSupport */,
+				FF75A1322C65764000E4EF0F /* FirebaseAppCheck */,
+				FF75A1342C65764000E4EF0F /* FirebaseAppDistribution-Beta */,
+				FF75A1362C65764000E4EF0F /* FirebaseAuth */,
+				FF75A1382C65764000E4EF0F /* FirebaseAuthCombine-Community */,
+				FF75A13A2C65764000E4EF0F /* FirebaseCrashlytics */,
+				FF75A13C2C65764000E4EF0F /* FirebaseDatabase */,
+				FF75A13E2C65764000E4EF0F /* FirebaseDynamicLinks */,
+				FF75A1402C65764000E4EF0F /* FirebaseFirestore */,
+				FF75A1422C65764000E4EF0F /* FirebaseFirestoreCombine-Community */,
+				FF75A1442C65764000E4EF0F /* FirebaseFunctions */,
+				FF75A1462C65764000E4EF0F /* FirebaseFunctionsCombine-Community */,
+				FF75A1482C65764000E4EF0F /* FirebaseInAppMessaging-Beta */,
+				FF75A14A2C65764000E4EF0F /* FirebaseInstallations */,
+				FF75A14C2C65764000E4EF0F /* FirebaseMLModelDownloader */,
+				FF75A14E2C65764000E4EF0F /* FirebaseMessaging */,
+				FF75A1502C65764000E4EF0F /* FirebasePerformance */,
+				FF75A1522C65764000E4EF0F /* FirebaseRemoteConfig */,
+				FF75A1542C65764000E4EF0F /* FirebaseStorage */,
+				FF75A1562C65764000E4EF0F /* FirebaseStorageCombine-Community */,
+				FF75A1582C65764000E4EF0F /* FirebaseVertexAI-Preview */,
+			);
+			productName = "SpiderVerse Nexus";
+			productReference = FFB9CC9C2C51701500737B49 /* SpiderVerse Nexus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFB9CCB12C51701800737B49 /* SpiderVerse NexusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB9CCC92C51701800737B49 /* Build configuration list for PBXNativeTarget "SpiderVerse NexusTests" */;
+			buildPhases = (
+				FFB9CCAE2C51701800737B49 /* Sources */,
+				FFB9CCAF2C51701800737B49 /* Frameworks */,
+				FFB9CCB02C51701800737B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFB9CCB42C51701800737B49 /* PBXTargetDependency */,
+			);
+			name = "SpiderVerse NexusTests";
+			productName = "SpiderVerse NexusTests";
+			productReference = FFB9CCB22C51701800737B49 /* SpiderVerse NexusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFB9CCBB2C51701800737B49 /* SpiderVerse NexusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB9CCCC2C51701800737B49 /* Build configuration list for PBXNativeTarget "SpiderVerse NexusUITests" */;
+			buildPhases = (
+				FFB9CCB82C51701800737B49 /* Sources */,
+				FFB9CCB92C51701800737B49 /* Frameworks */,
+				FFB9CCBA2C51701800737B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFB9CCBE2C51701800737B49 /* PBXTargetDependency */,
+			);
+			name = "SpiderVerse NexusUITests";
+			productName = "SpiderVerse NexusUITests";
+			productReference = FFB9CCBC2C51701800737B49 /* SpiderVerse NexusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFB9CC942C51701500737B49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FFB9CC9B2C51701500737B49 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					FFB9CCB12C51701800737B49 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = FFB9CC9B2C51701500737B49;
+					};
+					FFB9CCBB2C51701800737B49 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = FFB9CC9B2C51701500737B49;
+					};
+				};
+			};
+			buildConfigurationList = FFB9CC972C51701500737B49 /* Build configuration list for PBXProject "SpiderVerse Nexus" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFB9CC932C51701500737B49;
+			packageReferences = (
+				FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = FFB9CC9D2C51701500737B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFB9CC9B2C51701500737B49 /* SpiderVerse Nexus */,
+				FFB9CCB12C51701800737B49 /* SpiderVerse NexusTests */,
+				FFB9CCBB2C51701800737B49 /* SpiderVerse NexusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFB9CC9A2C51701500737B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB9CCA92C51701700737B49 /* Assets.xcassets in Resources */,
+				FFB9CCEB2C51970B00737B49 /* GoogleService-Info.plist in Resources */,
+				FFB9CCAC2C51701700737B49 /* Base in Resources */,
+				FF70A7552C63DE4B0031BD34 /* the_amazing_spiderman_30.jpg in Resources */,
+				FF70A7562C63DE4B0031BD34 /* multiverso.jpg in Resources */,
+				FF70A7572C63DE4B0031BD34 /* edge_spiderverse_5.jpg in Resources */,
+				FF70A7582C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_9.jpg in Resources */,
+				FFEF46102C64ACAA00E7CB07 /* cindy_moon.jpg in Resources */,
+				FF70A7592C63DE4B0031BD34 /* Spider-Verse_Team-Up_Vol_1_2.jpg in Resources */,
+				FF70A75A2C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_12.jpg in Resources */,
+				FF70A75B2C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_7.jpg in Resources */,
+				FF70A75C2C63DE4B0031BD34 /* Spider-Woman_Vol_5_2.jpg in Resources */,
+				FF70A75D2C63DE4B0031BD34 /* herederos1.jpg in Resources */,
+				FF70A75E2C63DE4B0031BD34 /* edge_spiderverse_4.jpg in Resources */,
+				FF70A75F2C63DE4B0031BD34 /* Spider-Man_2099_Vol_2_6.jpg in Resources */,
+				FF70A7602C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_13.jpg in Resources */,
+				FF70A7612C63DE4B0031BD34 /* Spider-Woman_Vol_5_1.jpg in Resources */,
+				FF70A7622C63DE4B0031BD34 /* web.png in Resources */,
+				FF70A7632C63DE4B0031BD34 /* peter616.jpg in Resources */,
+				FF70A78A2C64511C0031BD34 /* CeldaPersonajes.xib in Resources */,
+				FF70A7652C63DE4B0031BD34 /* Spider-Verse_Vol_1_1.jpg in Resources */,
+				FF70A7662C63DE4B0031BD34 /* Spider-Verse_Team-Up_Vol_1_1.jpg in Resources */,
+				FF70A7672C63DE4B0031BD34 /* Scarlet_Spiders_Vol_1_1.jpg in Resources */,
+				FF70A7682C63DE4B0031BD34 /* the_amazing_spiderman_1.jpg in Resources */,
+				FF70A7692C63DE4B0031BD34 /* The_Superior Spider-Man_32.jpg in Resources */,
+				FF70A76A2C63DE4B0031BD34 /* peter.jpg in Resources */,
+				FF70A76B2C63DE4B0031BD34 /* Spider-Verse_Team-Up_1.jpg in Resources */,
+				FF70A76C2C63DE4B0031BD34 /* user.png in Resources */,
+				FF70A76D2C63DE4B0031BD34 /* Spider-Man_2099_Vol_2_7.jpg in Resources */,
+				FF70A76E2C63DE4B0031BD34 /* spiderverse1.jpg in Resources */,
+				FF70A76F2C63DE4B0031BD34 /* Spider-Verse_Vol_1_2.jpg in Resources */,
+				FF70A78E2C6480060031BD34 /* spiderman0616.jpg in Resources */,
+				FF75A1612C65821B00E4EF0F /* SpidermanFont.ttf in Resources */,
+				FF70A7702C63DE4B0031BD34 /* miles.jpg in Resources */,
+				FF70A7712C63DE4B0031BD34 /* Spider-Woman_Vol_5_3.jpg in Resources */,
+				FF70A7722C63DE4B0031BD34 /* spiderverse.jpg in Resources */,
+				FF75A15E2C657C1F00E4EF0F /* Spider-Man_Noir.jpg in Resources */,
+				FF75A15F2C657C1F00E4EF0F /* fincher.jpg in Resources */,
+				FF70A7732C63DE4B0031BD34 /* gwen_comics.jpg in Resources */,
+				FF70A7742C63DE4B0031BD34 /* herederos.jpg in Resources */,
+				FF70A7752C63DE4B0031BD34 /* the_amazing_spiderman_15.jpg in Resources */,
+				FF70A7762C63DE4B0031BD34 /* edge_spiderverse_3.jpg in Resources */,
+				FF70A7772C63DE4B0031BD34 /* Scarlet_Spiders_Vol_1_2.jpg in Resources */,
+				FF70A7782C63DE4B0031BD34 /* Edge_of_Spider-Verse_Vol_1_1.jpg in Resources */,
+				FF70A7792C63DE4B0031BD34 /* Scarlet_Spiders_Vol_1_3.jpg in Resources */,
+				FF70A77A2C63DE4B0031BD34 /* jessica_drew.jpg in Resources */,
+				FF70A77B2C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_14.jpg in Resources */,
+				FF70A77C2C63DE4B0031BD34 /* miles_morales.jpg in Resources */,
+				FF70A77D2C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_8.jpg in Resources */,
+				FF70A77E2C63DE4B0031BD34 /* miguel_o'hara.jpg in Resources */,
+				FF70A77F2C63DE4B0031BD34 /* Spider-Woman_1.jpg in Resources */,
+				FF70A7802C63DE4B0031BD34 /* gwen.jpg in Resources */,
+				FF70A7812C63DE4B0031BD34 /* aparicion_morlun.jpg in Resources */,
+				FF70A7822C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_10.jpg in Resources */,
+				FF70A7832C63DE4B0031BD34 /* Amazing_Spider-Man_Vol_3_11.jpg in Resources */,
+				FF70A7842C63DE4B0031BD34 /* miguel.jpg in Resources */,
+				FF70A7852C63DE4B0031BD34 /* Spider-Verse_Team-Up_Vol_1_3.jpg in Resources */,
+				FF70A7862C63DE4B0031BD34 /* The_Amazing Spider-Man_7.jpg in Resources */,
+				FF97C4382C6561D500E571FE /* swingin_spider.gif in Resources */,
+				FFB9CCE92C5174BF00737B49 /* Login.storyboard in Resources */,
+				FF4715122C6335BB0031A869 /* CeldaComics.xib in Resources */,
+				FFB9CCA72C51701500737B49 /* Base in Resources */,
+				FF47150A2C628FA40031A869 /* CeldaNoticias.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB9CCB02C51701800737B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB9CCBA2C51701800737B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFB9CC982C51701500737B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF590EF62C5C2BD3000E65C5 /* CuentaViewController.swift in Sources */,
+				FF590EF42C5C2BA2000E65C5 /* NoticiasViewController.swift in Sources */,
+				FF5D886F2C656F8F00C4580A /* gifLoader.swift in Sources */,
+				FFB9CCED2C51AA8300737B49 /* LoginViewController.swift in Sources */,
+				FF70A7892C64511C0031BD34 /* CeldaPersonajes.swift in Sources */,
+				FF4715132C6335BB0031A869 /* CeldaComics.swift in Sources */,
+				FFB9CCF12C51BC2C00737B49 /* RegisterViewController.swift in Sources */,
+				FF4715152C63362F0031A869 /* Comics.swift in Sources */,
+				FFB9CCA42C51701500737B49 /* MainTabBarController.swift in Sources */,
+				FF590EF22C5C2B90000E65C5 /* ComicsViewController.swift in Sources */,
+				FFB9CCA02C51701500737B49 /* AppDelegate.swift in Sources */,
+				FF47150B2C628FA40031A869 /* CeldaNoticias.swift in Sources */,
+				FF590EF02C5AF913000E65C5 /* PersonajesViewController.swift in Sources */,
+				FF4715052C6281A70031A869 /* Noticias.swift in Sources */,
+				FF75C5362C62173500F296E6 /* MainViewController.swift in Sources */,
+				FFB9CCA22C51701500737B49 /* SceneDelegate.swift in Sources */,
+				FF70A78C2C6451320031BD34 /* Personajes.swift in Sources */,
+				FF2A01D62C61DE4F009F6628 /* ActualizarInfoController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB9CCAE2C51701800737B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB9CCB72C51701800737B49 /* SpiderVerse_NexusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB9CCB82C51701800737B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB9CCC12C51701800737B49 /* SpiderVerse_NexusUITests.swift in Sources */,
+				FFB9CCC32C51701800737B49 /* SpiderVerse_NexusUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFB9CCB42C51701800737B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFB9CC9B2C51701500737B49 /* SpiderVerse Nexus */;
+			targetProxy = FFB9CCB32C51701800737B49 /* PBXContainerItemProxy */;
+		};
+		FFB9CCBE2C51701800737B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFB9CC9B2C51701500737B49 /* SpiderVerse Nexus */;
+			targetProxy = FFB9CCBD2C51701800737B49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFB9CCA52C51701500737B49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFB9CCA62C51701500737B49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFB9CCAA2C51701700737B49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFB9CCAB2C51701700737B49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFB9CCC42C51701800737B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFB9CCC52C51701800737B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFB9CCC72C51701800737B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 983VL8MYKA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SpiderVerse Nexus/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fares.SpiderVerse-Nexus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FFB9CCC82C51701800737B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 983VL8MYKA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SpiderVerse Nexus/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fares.SpiderVerse-Nexus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FFB9CCCA2C51701800737B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fares.SpiderVerse-NexusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpiderVerse Nexus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpiderVerse Nexus";
+			};
+			name = Debug;
+		};
+		FFB9CCCB2C51701800737B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fares.SpiderVerse-NexusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpiderVerse Nexus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpiderVerse Nexus";
+			};
+			name = Release;
+		};
+		FFB9CCCD2C51701800737B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fares.SpiderVerse-NexusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SpiderVerse Nexus";
+			};
+			name = Debug;
+		};
+		FFB9CCCE2C51701800737B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fares.SpiderVerse-NexusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SpiderVerse Nexus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFB9CC972C51701500737B49 /* Build configuration list for PBXProject "SpiderVerse Nexus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB9CCC42C51701800737B49 /* Debug */,
+				FFB9CCC52C51701800737B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB9CCC62C51701800737B49 /* Build configuration list for PBXNativeTarget "SpiderVerse Nexus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB9CCC72C51701800737B49 /* Debug */,
+				FFB9CCC82C51701800737B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB9CCC92C51701800737B49 /* Build configuration list for PBXNativeTarget "SpiderVerse NexusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB9CCCA2C51701800737B49 /* Debug */,
+				FFB9CCCB2C51701800737B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB9CCCC2C51701800737B49 /* Build configuration list for PBXNativeTarget "SpiderVerse NexusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB9CCCD2C51701800737B49 /* Debug */,
+				FFB9CCCE2C51701800737B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF75A12C2C65764000E4EF0F /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		FF75A12E2C65764000E4EF0F /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		FF75A1302C65764000E4EF0F /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		FF75A1322C65764000E4EF0F /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		FF75A1342C65764000E4EF0F /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		FF75A1362C65764000E4EF0F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FF75A1382C65764000E4EF0F /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		FF75A13A2C65764000E4EF0F /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		FF75A13C2C65764000E4EF0F /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		FF75A13E2C65764000E4EF0F /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		FF75A1402C65764000E4EF0F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		FF75A1422C65764000E4EF0F /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		FF75A1442C65764000E4EF0F /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		FF75A1462C65764000E4EF0F /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		FF75A1482C65764000E4EF0F /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		FF75A14A2C65764000E4EF0F /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		FF75A14C2C65764000E4EF0F /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		FF75A14E2C65764000E4EF0F /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		FF75A1502C65764000E4EF0F /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		FF75A1522C65764000E4EF0F /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		FF75A1542C65764000E4EF0F /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		FF75A1562C65764000E4EF0F /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		FF75A1582C65764000E4EF0F /* FirebaseVertexAI-Preview */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF75A12B2C65764000E4EF0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseVertexAI-Preview";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FFB9CC942C51701500737B49 /* Project object */;
+}
